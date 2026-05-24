@@ -802,12 +802,12 @@ color:rgba(255,255,255,0.7);
         </div>
 
         <ul class="nav-links" id="navLinks">
-          <li><a onclick='scrollToSection('home')'>Home</a></li>
-          <li><a onclick='scrollToSection('about')'>About</a></li>
-          <li><a onclick='scrollToSection('services')'>Leistungen</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Leistungen</a></li>
           <!-- <li><a href="#markets">Markets</a></li> -->
-          <li><a onclick='scrollToSection('contact')'>Kontakt</a></li>
-          <li><a onclick='scrollToSection('contact')' class="btn">Angebot Anfragen</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+          <li><a href="#contact" class="btn">Angebot Anfragen</a></li>
         </ul>
         
         <div class="mobile-toggle" id="menuBtn">
@@ -1214,10 +1214,6 @@ color:rgba(255,255,255,0.7);
     //   }
 
     // });
-
-    function scrollToSection(id) {
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
 
     
 
